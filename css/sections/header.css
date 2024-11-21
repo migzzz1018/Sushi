@@ -13,7 +13,7 @@
 .header__logo-overlay {
     position:absolute;
     inset: 0;
-    width: 100%;
+    width: calc(100% - 1px);
 
     background-color: var(--primary-color);
     z-index: -1;
@@ -30,7 +30,7 @@
 {
     padding: 20px;
 
-    flex: 1.235;
+    flex: 1.236;
     display: flex;
     justify-content: flex-end;
     align-items: center;

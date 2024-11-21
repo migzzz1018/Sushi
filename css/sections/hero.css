@@ -10,7 +10,7 @@
   flex-direction: column;
 
   position: relative;
-  z-index: 5;
+  z-index: 5
 }
 
 .hero-image img {
@@ -73,6 +73,7 @@
 
 .hero-content__buttons {
   margin: 41px 0 0 41px;
+
   display: flex;
   flex-wrap: wrap;
   gap: 36px;
@@ -84,7 +85,7 @@
   min-width: 212px;
   outline: none;
   border: none;
-  background-color: var(--secondary-color);
+  background: var(--secondary-color);
 
   cursor: pointer;
 
@@ -101,7 +102,7 @@
 
   display: flex;
   align-items: center;
-
+  
   font-size: 16px;
   line-height: 19px;
   color: var(--black-200);
@@ -112,6 +113,7 @@
 
 .hero-content__play-button img {
   margin-right: 12px;
+
   width: 46px;
   height: 46px;
   object-fit: contain;
@@ -124,7 +126,7 @@
   flex-wrap: wrap;
   gap: 20px;
 
-  background: var(--color-white);
+  background: var(--color-white)
 }
 
 .hero-content__customer {
@@ -135,7 +137,7 @@
 .hero-content__customer h4 {
   font-size: 62px;
   font-weight: 400;
-  font-family: var(--playfair-display);
+  font-family: var(--playfair-display)
 }
 
 .hero-content__customer p {
